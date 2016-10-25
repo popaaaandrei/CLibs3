@@ -1,0 +1,5 @@
+module CLibs3 [system] {
+  header "/usr/include/libs3.h"
+  link "s3"
+  export *
+}
